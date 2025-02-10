@@ -19,7 +19,7 @@ Afaceristu is an e-commerce website developed for a university project. It allow
 ## Installation Guide
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-url.git
+   git clone https://github.com/GalanRaduM24/Ecommerce_Site/
    ```
 2. Set up a MySQL database and update `database.php` with your credentials:
    ```php
