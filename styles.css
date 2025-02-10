@@ -1,0 +1,181 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#search-bar {
+    text-align: center;
+    padding: 20px;
+}
+
+#search {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#category-filter,
+#price-filter {
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 600px) {
+    nav {
+        display: block;
+        background-color: #444;
+        text-align: center;
+    }
+
+    nav ul {
+        padding: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
+
+/* Search bar button styles */
+#search-bar button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+}
+
+#search-bar button:hover {
+    background-color: #45a049;
+}
+
+/* Filter button styles */
+#category-filter button,
+#price-filter button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+}
+
+#category-filter button:hover,
+#price-filter button:hover {
+    background-color: #0056b3;
+}
+
+/* Product container and product styles */
+#showroom {
+    padding: 20px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    flex: 1 0 calc(25% - 20px);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 600px) {
+    .product {
+        flex: 1 0 calc(50% - 20px);
+    }
+}
+
+/* Small profile icon styles */
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Buttons styles */
+button {
+    background-color: #1E90FF;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #00BFFF;
+}
+
